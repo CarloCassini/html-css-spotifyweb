@@ -10,6 +10,7 @@
   --space-l: 50px;
   --space-footer: 100px;
   --space-nav: 150px;
+  --space-main-content-header: 50px;
 }
 
 * {
@@ -41,10 +42,13 @@ img {
 }
 .col.main-nav {
   width: var(--space-nav);
+  height: calc(100vh - var(--space-footer));
 }
 
 .col.main-content {
   width: calc(100% - var(--space-nav));
+  height: calc(100vh - var(--space-footer));
+  overflow: auto;
 }
 
 .container {
@@ -67,3 +71,14 @@ footer {
 /* +++++++++++
 ++ Section  ++
 ++++++++++++*/
+
+/* main content */
+#main-content-header {
+  background-color: rgba(20, 25, 34, 0.5);
+  height: var(--space-main-content-header);
+  z-index: 9;
+  /* position: relative; */
+  position: sticky;
+  top: 0;
+  left: 0;
+}
