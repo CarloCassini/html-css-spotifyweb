@@ -17,3 +17,10 @@
     background-color: var(--db-color-red);
   }
 }
+
+/* xx-small */
+@media screen and (max-width: 350px) {
+  .debug {
+    background-color: var(--db-color-yellow);
+  }
+}

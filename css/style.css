@@ -5,6 +5,7 @@
   --db-color-red: rgba(250, 0, 0, 0.2);
   --db-color-blue: rgba(0, 0, 250, 0.2);
   --db-color-green: rgba(0, 250, 0, 0.2);
+  --db-color-yellow: rgba(254, 254, 2, 0.2);
   --space-s: 5px;
   --space-m: 20px;
   --space-l: 50px;
@@ -88,10 +89,6 @@ i {
   padding: var(--space-m) var(--space-s);
   border-radius: 10px;
 }
-/* 
-main {
-  height: calc(100vh - var(--space-footer));
-} */
 
 footer {
   position: relative;
