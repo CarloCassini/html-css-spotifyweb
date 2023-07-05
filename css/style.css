@@ -82,6 +82,8 @@ i {
 }
 
 .button {
+  position: absolute;
+
   border: 1px solid white;
   padding: var(--space-m) var(--space-s);
   border-radius: 10px;
@@ -131,10 +133,10 @@ footer {
 
   background-color: rgba(20, 25, 34, 0.5);
   z-index: 9;
-  /* height: var(--space-main-content-header); */
 
+  height: var(--space-main-content-header);
   text-align: right;
-  line-height: var(--space-main-content-header);
+  /* line-height: var(--space-main-content-header); */
 }
 
 /* footer */
@@ -162,16 +164,6 @@ footer .row {
 }
 #progress.foot-col {
   width: calc((100% / 5) * 2);
-}
-
-.foot-col > div {
-  margin: 0 var(--space-m);
-}
-.foot-col > div:first-child {
-  margin-left: 0;
-}
-.foot-col > div:last-child {
-  margin-right: 0;
 }
 
 footer img {
