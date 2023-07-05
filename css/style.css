@@ -2,9 +2,9 @@
 ++ Reset    ++
 ++++++++++++*/
 :root {
-  --db-color-red: rgba(250, 0, 0, 0.3);
-  --db-color-blue: rgba(0, 0, 250, 0.3);
-  --db-color-green: rgba(0, 250, 0, 0.3);
+  --db-color-red: rgba(250, 0, 0, 0.2);
+  --db-color-blue: rgba(0, 0, 250, 0.2);
+  --db-color-green: rgba(0, 250, 0, 0.2);
   --space-s: 5px;
   --space-m: 20px;
   --space-l: 50px;
@@ -58,7 +58,9 @@ main {
 }
 
 footer {
+  position: relative;
   z-index: 10;
+
   height: var(--space-footer);
 }
 
