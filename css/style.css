@@ -52,6 +52,10 @@ img {
 }
 
 .main-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+
   width: var(--space-sidebar);
   height: calc(100vh - var(--space-footer));
   background-color: #000000;
@@ -87,7 +91,7 @@ i {
   position: absolute;
 
   border: 1px solid white;
-  padding: var(--space-s) var(--space-s);
+  padding: var(--space-s) var(--space-m);
   font-size: var(--space-s);
   border-radius: 20px;
 }
@@ -122,6 +126,36 @@ footer {
 /* +++++++++++
 ++ Section  ++
 ++++++++++++*/
+/* side-bar */
+
+.main-sidebar .col {
+  width: 100%;
+  position: relative;
+}
+#logo-sidebar {
+  display: flex;
+  align-items: center;
+  height: var(--space-main-content-header);
+  padding: 0 var(--space-s);
+  border-left: 5px solid green;
+  /* padding-top: 0; */
+}
+#logo-sidebar svg {
+  width: 70%;
+}
+#sidebar-icons {
+  flex-grow: 1;
+  padding: 0 var(--space-s);
+}
+#sidebar-playlist {
+  flex-grow: 1;
+  padding: 0 var(--space-s);
+}
+#sidebar-user {
+  padding: 0 var(--space-s);
+
+  align-self: flex-end;
+}
 
 /* main content */
 #main-content-header {
@@ -166,6 +200,10 @@ footer .row {
 #progress.foot-col {
   width: calc((100% / 5) * 2);
 }
+#preferences .progress-bar {
+  margin-left: 3px;
+  margin-right: 0;
+}
 
 footer img {
   max-width: calc(var(--space-footer) / 1.5);
@@ -191,9 +229,7 @@ footer i {
 #progress div {
   margin: 0;
 }
-#progress .progress-bar {
-  /* width: 200px; */
-}
+
 #progress .progress-minutes {
   display: flex;
   flex-direction: row;
