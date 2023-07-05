@@ -6,7 +6,8 @@
   --db-color-blue: rgba(0, 0, 250, 0.2);
   --db-color-green: rgba(0, 250, 0, 0.2);
   --db-color-yellow: rgba(254, 254, 2, 0.2);
-  --space-s: 5px;
+  --space-xs: 5px;
+  --space-s: 10px;
   --space-m: 20px;
   --space-l: 50px;
   --space-footer: 80px;
@@ -86,8 +87,9 @@ i {
   position: absolute;
 
   border: 1px solid white;
-  padding: var(--space-m) var(--space-s);
-  border-radius: 10px;
+  padding: var(--space-s) var(--space-s);
+  font-size: var(--space-s);
+  border-radius: 20px;
 }
 
 footer {
@@ -124,6 +126,10 @@ footer {
 /* main content */
 #main-content-header {
   /* position sticky per occupare spazio nel flusso */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
   position: sticky;
   top: 0;
   left: 0;
@@ -132,8 +138,6 @@ footer {
   z-index: 9;
 
   height: var(--space-main-content-header);
-  text-align: right;
-  /* line-height: var(--space-main-content-header); */
 }
 
 /* footer */
