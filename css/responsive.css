@@ -4,16 +4,16 @@
 
 /* il sito è screen firs */
 
-/* smartphone */
-@media screen and (max-width: 578px) {
-  .debug {
-    background-color: var(--db-color-red);
-  }
-}
-
 /* tablet */
 @media screen and (max-width: 992px) {
   .debug {
     background-color: var(--db-color-blue);
+  }
+}
+
+/* smartphone */
+@media screen and (max-width: 578px) {
+  .debug {
+    background-color: var(--db-color-red);
   }
 }
