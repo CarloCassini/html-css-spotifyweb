@@ -8,6 +8,8 @@
   --space-s: 5px;
   --space-m: 20px;
   --space-l: 50px;
+  --space-footer: 100px;
+  --space-nav: 150px;
 }
 
 * {
@@ -34,11 +36,30 @@ img {
 /* +++++++++++
 ++ layout   ++
 ++++++++++++*/
+.row {
+  display: flex;
+}
+.col.main-nav {
+  width: var(--space-nav);
+}
+
+.col.main-content {
+  width: calc(100% - var(--space-nav));
+}
 
 .container {
-  margin: 0px auto;
-  /* padding: var(--space-s); */
+  margin: 0 auto;
+  padding: var(--space-s) 0;
   width: 90%;
+}
+
+main {
+  height: calc(100vh - var(--space-footer));
+}
+
+footer {
+  z-index: 10;
+  height: var(--space-footer);
 }
 
 /* +++++++++++
