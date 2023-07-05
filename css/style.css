@@ -1,0 +1,46 @@
+/* +++++++++++
+++ Reset    ++
+++++++++++++*/
+:root {
+  --db-color-red: rgba(250, 0, 0, 0.3);
+  --db-color-blue: rgba(0, 0, 250, 0.3);
+  --db-color-green: rgba(0, 250, 0, 0.3);
+  --space-s: 5px;
+  --space-m: 20px;
+  --space-l: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/* +++++++++++
+  ++ Debug    ++
+  ++++++++++++*/
+
+.debug {
+  border: 1px dashed red;
+  background-color: var(--db-color-green);
+  min-height: 20px;
+}
+
+/* +++++++++++
+++ layout   ++
+++++++++++++*/
+
+.container {
+  margin: 0px auto;
+  /* padding: var(--space-s); */
+  width: 90%;
+}
+
+/* +++++++++++
+++ Section  ++
+++++++++++++*/
