@@ -80,6 +80,12 @@ a {
 i {
   margin: 0 3px;
 }
+
+.button {
+  border: 1px solid white;
+  padding: var(--space-m) var(--space-s);
+  border-radius: 10px;
+}
 /* 
 main {
   height: calc(100vh - var(--space-footer));
@@ -97,9 +103,10 @@ footer {
   display: inline-block;
   position: relative;
   height: 3px;
-  width: 100px;
+  width: 100%;
   border-radius: 10px;
   background-color: #5a5a5a;
+  margin: 0 var(--space-m);
 }
 .progress-bar-value {
   position: absolute;
@@ -151,12 +158,10 @@ footer .row {
   align-items: center;
   justify-content: space-between;
   line-height: alc(var(--space-footer) / 1.5);
-  /* width: calc(100% / 3); */
+  width: calc(100% / 5);
 }
 #progress.foot-col {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
+  width: calc((100% / 5) * 2);
 }
 
 .foot-col > div {
@@ -180,6 +185,7 @@ footer i {
 }
 
 #progress {
+  display: flex;
   margin: 0;
   flex-direction: column;
   height: calc(var(--space-footer/2));
@@ -193,16 +199,12 @@ footer i {
   margin: 0;
 }
 #progress .progress-bar {
-  width: 200px;
+  /* width: 200px; */
 }
 #progress .progress-minutes {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-}
-
-.progress-minutes > .col {
-  flex-grow: 1;
-  flex-basis: 0;
+  width: 100%;
 }
