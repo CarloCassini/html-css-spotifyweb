@@ -78,7 +78,7 @@ a {
 }
 
 i {
-  margin: 0 var(--space-s);
+  margin: 0 3px;
 }
 /* 
 main {
@@ -153,4 +153,25 @@ footer img {
   max-width: calc(var(--space-footer) / 1.5);
   aspect-ratio: 1;
   object-fit: cover;
+}
+
+footer i {
+  font-size: x-small;
+}
+
+.progress-bar {
+  position: relative;
+  height: 3px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #5a5a5a;
+}
+.progress-bar-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: white;
 }
