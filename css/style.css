@@ -64,9 +64,22 @@ img {
 
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
 }
 
+.small-txt {
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+i {
+  margin: 0 var(--space-s);
+}
 /* 
 main {
   height: calc(100vh - var(--space-footer));
@@ -106,11 +119,38 @@ footer {
 
 /* footer */
 footer .container {
+  color: #5a5a5a;
+}
+
+footer h5 {
   color: white;
+  font-weight: bolder;
 }
 
 footer .row {
   height: var(--space-footer);
   justify-content: space-between;
   align-items: center;
+}
+
+.foot-col {
+  display: flex;
+  align-items: center;
+  line-height: alc(var(--space-footer) / 1.5);
+}
+
+.foot-col > div {
+  margin: var(--space-m);
+}
+.foot-col > div:first-child {
+  margin-left: 0;
+}
+.foot-col > div:last-child {
+  margin-right: 0;
+}
+
+footer img {
+  max-width: calc(var(--space-footer) / 1.5);
+  aspect-ratio: 1;
+  object-fit: cover;
 }
