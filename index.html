@@ -28,7 +28,7 @@
       <!-- zona sidebar -->
       <div class="main-sidebar">
         <!-- logo -->
-        <div class="col" id="logo-sidebar">
+        <div class="col debug" id="logo-sidebar">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1134 340"
@@ -88,7 +88,6 @@
         </div>
 
         <!-- playlist -->
-
         <div id="sidebar-playlist-head">
           <h5>PLAYLIST</h5>
           <a href="#" id="new-playlist">
@@ -99,7 +98,7 @@
           </a>
         </div>
         <div class="col" id="sidebar-playlist">
-          <div class="playlist-list debug">
+          <div class="playlist-list">
             <div>
               <a href="#"> nome playlist</a>
             </div>
@@ -128,11 +127,17 @@
         </div>
 
         <!-- user -->
-        <div class="col debug" id="sidebar-user">
-          <div>utente</div>
-          <div>utente</div>
-          <div>utente</div>
-          <div>utente</div>
+        <div class="col" id="sidebar-user">
+          <div class="user-element">
+            <i class="fa-regular fa-circle-down"></i>
+            <span> installa l'app</span>
+          </div>
+          <hr />
+
+          <div class="user-element" id="account">
+            <i class="fa-solid fa-user"></i>
+            <span> John Doe</span>
+          </div>
         </div>
       </div>
 
@@ -155,6 +160,7 @@
             <li>NUOVE USCITE</li>
             <li>SCOPRI</li>
           </ul>
+
           <!-- lorem x debug -->
           <div class="debug">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora et

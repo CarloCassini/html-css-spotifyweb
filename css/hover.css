@@ -29,16 +29,26 @@
 #sidebar-playlist div:hover {
   color: limegreen;
 }
+#sidebar-playlist-head h5:hover,
+#sidebar-playlist-head div:hover {
+  color: limegreen;
+}
 
 #sidebar-playlist a:hover {
   color: white;
 }
 
+.user-element:hover {
+  color: white;
+}
 /* main */
 
+.button:hover {
+  transform: scale(1.1);
+}
 .main-content li:hover {
   color: white;
-  /* border-bottom: 1px solid limegreen; */
+  border-bottom: 1px solid limegreen;
 }
 
 /* footer */

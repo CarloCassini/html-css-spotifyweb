@@ -238,6 +238,22 @@ footer {
   color: #5a5a5a;
 }
 #new-playlist {
+  line-height: var(--icon-square-width);
+  color: white;
+}
+
+#sidebar-user hr {
+  margin: var(--space-s) auto;
+
+  border-color: #5a5a5a;
+}
+.user-element {
+  margin: var(--space-s) 0;
+  line-height: 10px;
+  color: #5a5a5a;
+  font-size: x-small;
+}
+#account.user-element {
   color: white;
 }
 
@@ -278,7 +294,7 @@ footer {
 }
 .small-underline {
   display: inline-block;
-  bottom: 0;
+  bottom: -1px;
   left: 50%;
   transform: translate(-50%);
   text-align: center;
