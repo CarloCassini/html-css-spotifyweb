@@ -9,12 +9,24 @@
   .debug {
     background-color: var(--db-color-blue);
   }
+
+  .container-recently-played .row {
+    flex-wrap: wrap;
+  }
+
+  .container-recently-played .col {
+    width: calc(100% / 4);
+  }
 }
 
 /* smartphone */
 @media screen and (max-width: 578px) {
   .debug {
     background-color: var(--db-color-red);
+  }
+
+  .container-recently-played .col {
+    width: calc(100% / 2);
   }
 }
 
