@@ -51,14 +51,18 @@
   border-bottom: 1px solid limegreen;
 }
 
-.container-recently-played .album-media:hover img {
+.main-content-container > h6 {
+  margin: var(--space-xs) 0;
+}
+
+.main-content-container .album-media:hover img {
   transition: 0.5s ease;
   background-color: black;
   opacity: 0.5;
   /* filter: blur(3px); */
 }
 
-.container-recently-played .album-media:hover .album-play-img {
+.main-content-container .album-media:hover .album-play-img {
   display: block;
 }
 

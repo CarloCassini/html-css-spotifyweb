@@ -10,11 +10,11 @@
     background-color: var(--db-color-blue);
   }
 
-  .container-recently-played .row {
+  .main-content-container .row {
     flex-wrap: wrap;
   }
 
-  .container-recently-played .col {
+  .main-content-container .col {
     width: calc(100% / 4);
   }
 }
@@ -25,7 +25,7 @@
     background-color: var(--db-color-red);
   }
 
-  .container-recently-played .col {
+  .main-content-container .col {
     width: calc(100% / 2);
   }
 }
