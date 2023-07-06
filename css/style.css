@@ -188,6 +188,33 @@ footer {
   aspect-ratio: 1;
 }
 
+#sidebar-playlist {
+  margin: var(--space-s) 0;
+}
+
+#sidebar-playlist .row {
+  width: var(--space-sidebar);
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.plus-btt {
+  display: inline-block;
+  width: var(--icon-square-width);
+  aspect-ratio: 1;
+
+  background-color: #5a5a5a;
+  color: #000000;
+
+  margin: var(--space-xs);
+  margin-left: 0;
+
+  text-align: center;
+  line-height: var(--icon-square-width);
+  font-size: larger;
+  font-weight: bolder;
+}
+
 /* main content */
 #main-content-header {
   /* position sticky per occupare spazio nel flusso */

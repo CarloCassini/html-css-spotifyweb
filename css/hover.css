@@ -24,6 +24,12 @@
   fill: limegreen;
 }
 
+#sidebar-playlist h5:hover,
+#sidebar-playlist .row:hover,
+#sidebar-playlist div:hover {
+  color: limegreen;
+}
+
 /* footer */
 
 .foot-col a:hover {
