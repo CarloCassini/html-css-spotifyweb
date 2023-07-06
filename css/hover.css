@@ -30,6 +30,10 @@
   color: limegreen;
 }
 
+#sidebar-playlist a:hover {
+  color: white;
+}
+
 /* footer */
 
 .foot-col a:hover {

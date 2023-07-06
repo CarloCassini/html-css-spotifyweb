@@ -197,7 +197,12 @@ footer {
   /* justify-content: space-between; */
   align-items: center;
 }
-
+.playlist-list {
+  overflow: auto;
+}
+.playlist-list > div {
+  margin: var(--space-xs) 0;
+}
 .plus-btt {
   display: inline-block;
   width: var(--icon-square-width);
@@ -213,6 +218,13 @@ footer {
   line-height: var(--icon-square-width);
   font-size: larger;
   font-weight: bolder;
+}
+
+#sidebar-playlist a {
+  color: #5a5a5a;
+}
+#new-playlist {
+  color: white;
 }
 
 /* main content */
