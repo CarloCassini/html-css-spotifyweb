@@ -1,3 +1,12 @@
+/* progress bar */
+.progress-bar:hover .progress-bar-value {
+  background-color: limegreen;
+}
+
+.progress-bar:hover .progress-bar-ball {
+  display: block;
+}
+
 /* sidebar */
 #logo-sidebar:hover {
   padding: 0 calc(var(--space-s) - 3px);
@@ -13,4 +22,15 @@
 
 .icon-sidebar:hover path {
   fill: limegreen;
+}
+
+/* footer */
+
+.foot-col a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.fa-circle-play:hover {
+  transform: scale(1.1);
 }

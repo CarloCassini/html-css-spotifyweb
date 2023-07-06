@@ -42,7 +42,7 @@ path {
 .debug {
   border: 1px dashed red;
   background-color: var(--db-color-green);
-  min-height: 20px;
+  /* min-height: 20px; */
 }
 
 /* +++++++++++
@@ -126,6 +126,18 @@ footer {
   width: 70%;
   border-radius: 10px;
   background-color: white;
+}
+
+.progress-bar-ball {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  height: 10px;
+  aspect-ratio: 1;
+  transform: translate(5px, -4px);
+  border-radius: 50%;
+  display: none;
 }
 
 /* +++++++++++
