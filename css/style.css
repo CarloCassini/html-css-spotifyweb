@@ -13,7 +13,7 @@
   --space-footer: 80px;
   --space-sidebar: 150px;
   --space-main-content-header: 50px;
-  --icon-square-width: calc(var(--space-sidebar) / 6);
+  --icon-square-width: calc(var(--space-sidebar) / 7);
 }
 
 * {
@@ -243,7 +243,7 @@ footer img {
 }
 
 footer i {
-  font-size: x-small;
+  font-size: small;
 }
 
 #progress {
@@ -267,4 +267,8 @@ footer i {
   align-items: center;
   justify-content: space-around;
   width: 100%;
+}
+
+#preferences {
+  color: white;
 }
