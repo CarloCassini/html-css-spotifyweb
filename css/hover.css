@@ -1,0 +1,16 @@
+/* sidebar */
+#logo-sidebar:hover {
+  padding: 0 calc(var(--space-s) - 3px);
+  border-left: 3px solid limegreen;
+  color: limegreen;
+}
+
+.icon-sidebar:hover {
+  color: white;
+  padding: 0 calc(var(--space-s) - 3px);
+  border-left: 3px solid limegreen;
+}
+
+.icon-sidebar:hover path {
+  fill: limegreen;
+}

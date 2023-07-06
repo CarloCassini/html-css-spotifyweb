@@ -13,6 +13,7 @@
   --space-footer: 80px;
   --space-sidebar: 150px;
   --space-main-content-header: 50px;
+  --icon-square-width: calc(var(--space-sidebar) / 6);
 }
 
 * {
@@ -28,6 +29,10 @@ body {
 
 img {
   width: 100%;
+}
+
+path {
+  fill: currentColor;
 }
 
 /* +++++++++++
@@ -137,24 +142,38 @@ footer {
   align-items: center;
   height: var(--space-main-content-header);
   padding: 0 var(--space-s);
-  border-left: 5px solid green;
+
   /* padding-top: 0; */
 }
 #logo-sidebar svg {
   width: 70%;
 }
 #sidebar-icons {
-  flex-grow: 1;
   padding: 0 var(--space-s);
 }
 #sidebar-playlist {
-  flex-grow: 1;
   padding: 0 var(--space-s);
 }
 #sidebar-user {
   padding: 0 var(--space-s);
 
   align-self: flex-end;
+}
+.icon-sidebar {
+  padding: 0 var(--space-s);
+  margin-bottom: var(--space-xs);
+  color: #5a5a5a;
+  display: flex;
+  align-items: center;
+}
+.icon-sidebar svg {
+  fill: #5a5a5a;
+  line-height: var(--icon-square-width);
+}
+.icon-square {
+  display: inline-block;
+  width: var(--icon-square-width);
+  aspect-ratio: 1;
 }
 
 /* main content */
