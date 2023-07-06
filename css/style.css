@@ -303,14 +303,30 @@ footer {
 
 .container-recently-played .row {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .container-recently-played .col {
   width: calc(100% / 6);
   text-align: center;
-  padding: 1%;
+  padding: 2% 1%;
+  position: relative;
+}
+
+.album-play-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.album-text {
+  margin: var(--space-xs) 0;
+}
+.album-subtitle {
+  color: #5a5a5a;
+  font-size: x-small;
 }
 
 /* footer */

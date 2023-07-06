@@ -51,6 +51,17 @@
   border-bottom: 1px solid limegreen;
 }
 
+.container-recently-played .album-media:hover img {
+  transition: 0.5s ease;
+  background-color: black;
+  opacity: 0.5;
+  /* filter: blur(3px); */
+}
+
+.container-recently-played .album-media:hover .album-play-img {
+  display: block;
+}
+
 /* footer */
 
 .foot-col a:hover {
@@ -58,6 +69,6 @@
   text-decoration: underline;
 }
 
-.fa-circle-play:hover {
+.foot-col .fa-circle-play:hover {
   transform: scale(1.1);
 }
