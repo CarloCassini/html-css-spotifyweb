@@ -158,6 +158,7 @@ footer {
 .main-sidebar-xs .col {
   width: 100%;
   position: relative;
+  font-size: x-small;
 }
 #logo-sidebar {
   display: flex;
@@ -187,7 +188,7 @@ footer {
 }
 .icon-sidebar {
   padding: 0 var(--space-s);
-  margin: var(--space-xs) 0;
+  margin: var(--space-s) 0;
   color: #5a5a5a;
   display: flex;
   align-items: center;
@@ -253,6 +254,10 @@ footer {
 #new-playlist {
   line-height: var(--icon-square-width);
   color: white;
+}
+
+#new-playlist .row {
+  align-items: center;
 }
 
 #sidebar-user hr {
@@ -372,10 +377,10 @@ footer .row {
   align-items: center;
   justify-content: space-between;
   line-height: alc(var(--space-footer) / 1.5);
-  width: calc(100% / 4);
+  width: calc(100% / 5);
 }
 #progress.foot-col {
-  width: calc((100% / 4) * 2);
+  width: calc((100% / 5) * 2);
 }
 #preferences .progress-bar {
   margin-left: 3px;
