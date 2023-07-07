@@ -35,4 +35,18 @@
   .debug {
     background-color: var(--db-color-yellow);
   }
+
+  :root {
+    --space-sidebar: 50px;
+    --icon-square-width: calc(var(--space-sidebar) / 2);
+  }
+
+  .main-sidebar {
+    display: none;
+  }
+
+  .main-sidebar-xs {
+    display: flex;
+    justify-content: space-around;
+  }
 }
