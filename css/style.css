@@ -372,10 +372,10 @@ footer .row {
   align-items: center;
   justify-content: space-between;
   line-height: alc(var(--space-footer) / 1.5);
-  width: calc(100% / 5);
+  width: calc(100% / 4);
 }
 #progress.foot-col {
-  width: calc((100% / 5) * 2);
+  width: calc((100% / 4) * 2);
 }
 #preferences .progress-bar {
   margin-left: 3px;

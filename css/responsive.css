@@ -28,6 +28,22 @@
   .main-content-container .col {
     width: calc(100% / 2);
   }
+
+  .hide-xs {
+    display: none;
+  }
+
+  .small-txt {
+    font-size: xx-small;
+  }
+
+  #footer-album i {
+    font-size: x-small;
+  }
+
+  #preferences i {
+    font-size: x-small;
+  }
 }
 
 /* xx-small */
@@ -48,5 +64,17 @@
   .main-sidebar-xs {
     display: flex;
     justify-content: space-around;
+  }
+
+  .foot-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: alc(var(--space-footer) / 1.5);
+    width: calc(100% / 3);
+  }
+
+  #progress i {
+    font-size: small;
   }
 }
